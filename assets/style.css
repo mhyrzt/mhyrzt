@@ -4,6 +4,7 @@
 
 * {
     font-family: 'Roboto Mono', monospace;
+    scroll-behavior: smooth;
 }
 
 
@@ -29,7 +30,7 @@ ul a {
     text-decoration: none;
 }
 
-ul a:link {
+ul a:link, ul a:visited {
     color: black;
 }
 
@@ -37,9 +38,6 @@ ul a:hover {
     text-decoration: underline;
 }
 
-ul a:visited {
-    color: black;
-}
 
 .sidebar {
     width: 100%;
@@ -67,6 +65,23 @@ ul a:visited {
     text-align: center;
 }
 
+section {
+    padding-left: 5%;
+    padding-right: 5%;
+    text-align: justify;
+    min-height: 100vh;
+    padding-top: 1%;
+}
+
+.social-media {
+    display: flex;
+    flex-direction: row;
+    padding-right: 5%;
+    padding-left: 5%;
+    justify-content: space-around;
+}
+
+
 @media only screen and (min-width : 992px) {
     main {
         flex-direction: row;
@@ -74,6 +89,10 @@ ul a:visited {
 
     .sidebar {
         width: var(--sidebar);
+        position: -webkit-sticky;
+        position: sticky;
+        top: 0;
+        height: fit-content;
     }
 
     .main {
