@@ -79,6 +79,43 @@ section {
     padding-right: 5%;
     padding-left: 5%;
     justify-content: space-around;
+    align-items: center;
+}
+
+.social-media a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    outline: none;
+    margin-top: auto;
+}
+
+.resume {
+    color: white;
+    text-decoration: none;
+    background-color: rgba(225, 0, 0, 1);
+    height: 28px;
+    width: 95.497px;
+}
+
+.resume:link, .resume:visited {
+    color: white;
+}
+
+p {
+    line-height: 5vh;
+    font-size: large;
+}
+
+.item {
+    display: flex;
+    flex-direction: row;
+}
+
+.bar {
+    width: 2px;
+    background-color: black;
+    margin-right: 15px;
 }
 
 
