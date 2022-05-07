@@ -3,10 +3,15 @@
 }
 
 * {
-    font-family: 'Roboto Mono', monospace;
+    font-family: "Times New Roman", Times, serif;
     scroll-behavior: smooth;
 }
 
+.email {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    font-size: small;
+}
 
 body {
     margin: 0px;
@@ -25,16 +30,20 @@ ul {
     list-style-type: "- ";
 }
 
-ul a {
+ul ul {
+    list-style-type: "+ ";
+}
+
+#contents a {
     outline: none;
     text-decoration: none;
 }
 
-ul a:link, ul a:visited {
+#contents a:link, #contents a:visited {
     color: black;
 }
 
-ul a:hover {
+#contents a:hover {
     text-decoration: underline;
 }
 
@@ -102,7 +111,7 @@ section {
     color: white;
 }
 
-p {
+#aboutme p {
     line-height: 5vh;
     font-size: large;
 }
@@ -114,10 +123,20 @@ p {
 
 .bar {
     width: 2px;
-    background-color: black;
     margin-right: 15px;
+    background-color: black;
 }
 
+.title {
+    font-weight: bold;
+    font-style: italic;
+    font-size: large;
+}
+
+.course {
+    font-size: larger;
+    word-break: break-word;
+}
 
 @media only screen and (min-width : 992px) {
     main {
@@ -134,6 +153,10 @@ p {
 
     .main {
         width: calc(100% - var(--sidebar));
+    }
+
+    .title {
+        font-size: larger;
     }
 
 }
