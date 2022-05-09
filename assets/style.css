@@ -117,7 +117,7 @@ section {
 }
 
 .item {
-    padding-left: 10px;
+    padding-left: 2.5%;
     border-left: 2.5px solid black;
 }
 
@@ -158,10 +158,6 @@ section {
 
     .main {
         width: calc(100% - var(--sidebar));
-    }
-
-    .title {
-        font-size: larger;
     }
 
 }
