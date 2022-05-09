@@ -136,7 +136,8 @@ section {
     list-style-position: inside;
     padding-left: 0;
     white-space: nowrap;
-    overflow: scroll;
+    overflow-y: hidden;
+    overflow-x: scroll;
 }
 
 @media only screen and (min-width : 992px) {
