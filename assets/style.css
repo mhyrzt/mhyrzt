@@ -119,6 +119,7 @@ section {
 .item {
     padding-left: 10px;
     border-left: 2.5px solid black;
+    margin-bottom: 10px;
 }
 
 
@@ -150,6 +151,25 @@ section {
     margin-bottom: 5px;
 }
 
+.skills {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.skill {
+    padding: 5px;
+    min-width: 5%;
+    text-align: center;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    font-size: normal;
+}
+
+
 @media only screen and (min-width : 992px) {
     section, .contents, .info, .course {
         font-size: x-large;
@@ -174,6 +194,10 @@ section {
 
     .main {
         width: calc(100% - var(--sidebar));
+    }
+
+    .skill {
+        font-size: x-large;
     }
 
 }
