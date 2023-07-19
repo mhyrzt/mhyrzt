@@ -2,8 +2,11 @@
 const mahyar: Person = {
   fullName: "Mahyar Riazati",
   location: "Tehran Iran",
-  webpage: "[https://mhyrzt.github.io/](https://mhyrzt.github.io/)"
-  hobbies: ["Math", "Anime", "Learning New Stuffs", "Books"],
+  links: {
+    homePage: "https://mhyrzt.github.io/",
+    linkedIn: "https://www.linkedin.com/in/mhyrzt/",
+  }
+  hobbies: ["Math", "Anime", "Manga", "Learning New Stuffs", "Novels"],
   interests: [...computerUniverse],
   techStack: {
     languages: [
