@@ -34,9 +34,10 @@ const mahyar: Person = {
             "Cypress",
             "React Testing Library",
         ],
+        mobile: ["Android Studio Java", "Ract.Native"],
+        devOPs: ["Docker", "Docker-Compose"],
         backEnd: ["Django", "Flask", "Node.js", "Express"],
         database: ["MongoDB", "PostgreSQL"],
-        devOPs: ["Docker", "Docker-Compose"],
         artificialIntelligence: [
             "gym",
             "Numpy",
